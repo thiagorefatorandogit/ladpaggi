@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>FocusApp - Aumente sua produtividade</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <!-- Logo corrigida -->
+      <svg
+        width="180"
+        height="50"
+        viewBox="0 0 180 50"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <!-- Ícone -->
+        <circle cx="25" cy="25" r="10" stroke="#4CAF50" stroke-width="2" />
+        <circle cx="25" cy="25" r="4" fill="#4CAF50" />
+
+        <!-- Texto da logo -->
+        <text
+          x="50"
+          y="32"
+          font-family="Inter, sans-serif"
+          font-size="24"
+          font-weight="600"
+          fill="#f5f5f5"
+          class="texto-logo"
+        >
+          Focus
+        </text>
+
+        <text
+          x="105"
+          y="32"
+          font-family="Inter, sans-serif"
+          font-size="24"
+          font-weight="300"
+          fill="#4CAF50"
+        >
+          App
+        </text>
+      </svg>
+
+      <div class="header-textos">
+        <a href="#beneficios">Benefícios</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#download">Download</a>
+
+        <img class="img-icone" 
+        src="assets/icone-sol.svg" 
+        alt="Ícone Dark Mode" 
+        />
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section id="hero">
+      <div class="container">
+        <div class="hero-textos">
+          <h1>FocusApp: Foque no que importa</h1>
+
+          <p>Domine sua atenção com o app número 1 em produtividade pessoal.</p>
+
+          <button class="botao-popup">Quero começar</button>
+        </div>
+
+        <img width="400" src="assets/ilustracao-hero.svg" alt="Ilustração Hero" />
+      </div>
+    </section>
+
+    <!-- Benefícios -->
+    <section id="beneficios">
+      <h2>Por que usar o FocusApp?</h2>
+
+      <div class="cards">
+        <p class="card">🎯 Metas diárias inteligentes</p>
+        <p class="card">⏱️ Sessões de foco personalizadas</p>
+        <p class="card">📈 Acompanhamento do progresso</p>
+      </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section id="depoimentos">
+      <h2>O que dizem os usuários</h2>
+
+      <div class="figuras">
+        <figure>
+          <img src="assets/depoimento1.jpg" alt="Depoimento da Ana" />
+          <figcaption>“Agora consigo estudar com foco total!” — Ana, SP</figcaption>
+        </figure>
+
+        <figure>
+          <img src="assets/depoimento2.jpg" alt="Depoimento do Lucas" />
+          <figcaption>“Melhorei muito minha produtividade!” — Lucas, RJ</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Download -->
+    <section id="download">
+      <h2>Pronto para focar de verdade?</h2>
+
+      <p>Baixe o FocusApp gratuitamente e comece sua transformação hoje.</p>
+
+      <!-- CORREÇÃO AQUI: adicionado class="botao-popup" -->
+      <button class="botao-popup">Download gratuito</button>
+    </section>
+
+    <footer>
+      <p>© 2025 FocusApp. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Popup -->
+    <div class="popup">
+      <form>
+        <p class="botao-fechar">x</p>
+
+        <h2>Quer aumentar sua produtividade?</h2>
+
+        <p>Cadastre seu e-mail e receba um plano de estudos gratuito</p>
+
+        <input type="text" placeholder="Seu e-mail" />
+
+        <button class="botao-popup">Receber plano</button>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
